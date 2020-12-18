@@ -1,0 +1,32 @@
+/*simple styles for gallery*/
+#gallery {
+  display: flex;
+  justify-content: space-around;
+}
+
+#gallery > li {
+  list-style: none;
+}
+
+#gallery img {
+  display: block;
+  width: auto;
+  height: 250px;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+/*validation of input field*/
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
